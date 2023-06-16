@@ -8,7 +8,7 @@ def run_vbcr(start_keyspace, end_keyspace):
     command = f'VBCr.exe -t 3 -gpu -gpuId 0 -begr {start_keyspace} -endr {end_keyspace} -r 5000 -o {output_filename} -drk 1 -dis 1 -c 13zb1hQ'
 
     process = subprocess.Popen(command, shell=True, creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
-    time.sleep(500)  # Wait for 600 seconds
+    time.sleep(600)  # Wait for 600 seconds
     os.kill(process.pid, signal.CTRL_BREAK_EVENT)  # Send CTRL_BREAK_EVENT signal to terminate the process group
     process.wait()  # Wait for the process to exit
 
