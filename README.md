@@ -1,5 +1,5 @@
 # VBCr-Automation
-Increment keyspace 66 using VBCr VanitySearch prefix finder<br>
+Automatically increment keyspace 66 using VBCr VanitySearch prefix finder<br>
 first download VBCr.exe from https://github.com/WanderingPhilosopher/VanBitCrackenRandom2  <br>
 python3 runvbc.py stops at end of keyspace<br>
 python3 runvbc_loop.py completes keyspace than starts over indefinitely until killed<br>
