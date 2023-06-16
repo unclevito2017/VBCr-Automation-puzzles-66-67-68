@@ -76,6 +76,6 @@ Priv (WIF): p2pkh: KwDiBf89QgGbjEhKnhXJuH7LrciVrZi3qZVebbJ63fmEeLh5nUAK<br>
 Priv (HEX): 20FD78C93F78C192C (66 bit)<br>
  [00:00:00:33 Run Time][Total 47.10 MK/s][GPU 43.19 MK/s][Keys 1,547,363,328][Found 1][Rekeys: 0]<br>
 
-<B>If this program  helps find your hidden treasures :  donations 
+<B>If this program  helps find your hidden treasures :  donations<br>
  Bitcoin    bc1qus09g0n5jwg79gje76zxqmzt3gpw80dcqspsmm <br>
  Litecoin   ltc1q5qtw6fhuqcarv8ysfv7c52gyyfnys3gzlds5s8</b>
