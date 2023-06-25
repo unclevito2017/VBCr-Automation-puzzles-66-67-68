@@ -23,7 +23,7 @@ def load_checkpoint():
             checkpoint_data = pickle.load(f)
         return checkpoint_data['start_keyspace'], checkpoint_data['end_keyspace']
     else:
-        return '70000000000000000', '70100000000000000'
+        return '40000000000000000', '40100000000000000'
 
 def run_vbcr(start_keyspace, end_keyspace):
     output_filename = f'{start_keyspace[:3]}.txt'  # Generate the output filename based on the start keyspace
@@ -66,7 +66,7 @@ while True:
 start_keyspace, end_keyspace = load_checkpoint()
 
 # Continue program execution from the last saved checkpoint
-while int(end_keyspace, 16) <= int('3ffffffffffffffff', 16):
+while int(end_keyspace, 16) <= int('800ffffffffffffff', 16):
     run_vbcr(start_keyspace, end_keyspace)
     start_keyspace = hex(int(end_keyspace, 16) + 1)[2:]
     end_keyspace = hex(int(start_keyspace, 16) + int(increment, 16) - 1)[2:]
