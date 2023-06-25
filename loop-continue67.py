@@ -27,7 +27,7 @@ def load_checkpoint():
 
 def run_vbcr(start_keyspace, end_keyspace):
     output_filename = f'{start_keyspace[:3]}.txt'  # Generate the output filename based on the start keyspace
-    command = f'VBCr.exe -t 3 -gpu -gpuId 0 -begr {start_keyspace} -endr {end_keyspace} -o {output_filename} -drk 1 -dis 1 -c 1BY8GQbnu'
+    command = f'VBCr.exe -t 3 -gpu -gpuId 0 -begr {start_keyspace} -endr {end_keyspace} -o {output_filename} -drk 1 -dis 1 -c 13zb1hQb'
 
     process = subprocess.Popen(command, shell=True, creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
     time.sleep(500)  # Wait for 500 seconds
@@ -66,7 +66,7 @@ while True:
 start_keyspace, end_keyspace = load_checkpoint()
 
 # Continue program execution from the last saved checkpoint
-while int(end_keyspace, 16) <= int('800ffffffffffffff', 16):
+while int(end_keyspace, 16) <= int('3ffffffffffffffff', 16):
     run_vbcr(start_keyspace, end_keyspace)
     start_keyspace = hex(int(end_keyspace, 16) + 1)[2:]
     end_keyspace = hex(int(start_keyspace, 16) + int(increment, 16) - 1)[2:]
