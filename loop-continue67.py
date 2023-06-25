@@ -27,7 +27,7 @@ def load_checkpoint():
 
 def run_vbcr(start_keyspace, end_keyspace):
     output_filename = f'{start_keyspace[:3]}.txt'  # Generate the output filename based on the start keyspace
-    command = f'VBCr.exe -t 3 -gpu -gpuId 0 -begr {start_keyspace} -endr {end_keyspace} -o {output_filename} -drk 1 -dis 1 -c 13zb1hQb'
+    command = f'VBCr.exe -t 3 -gpu -gpuId 0 -begr {start_keyspace} -endr {end_keyspace} -o {output_filename} -drk 1 -dis 1 -c 1BY8GQbnu'
 
     process = subprocess.Popen(command, shell=True, creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
     time.sleep(500)  # Wait for 500 seconds
