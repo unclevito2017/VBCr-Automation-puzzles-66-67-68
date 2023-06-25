@@ -11,7 +11,7 @@ automatically creates found folder for found in each increment i.e 200.txt 201.t
 adjust time for each increment default is 500 seconds<br>
 adust the prefix length to search for  default is 13zb1hQ for keyspace 66<br>
 adjust -r for  random interval in millions ie 5000 is 5 billion<br>
-if using cpu's also set the number -t (number)
+if using cpu's also set the number -t (number)<br>
 .pkl file is keyspace related so .pkl file created in 66 cannot be in same folder as 67.py or 68.py<br>
 
 
