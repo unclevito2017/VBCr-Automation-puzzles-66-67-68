@@ -10,6 +10,7 @@ python3 runvbc-cpu.py cpu only adjust number of cpu's  default is 3 -t 3 in code
 automatically creates found folder for found in each increment i.e 200.txt 201.txt  till end of keyspace 3ff.txt (keeps found in order)<br>
 adjust time for each increment default is 500 seconds<br>
 adust the prefix length to search for  default is 13zb1hQ for keyspace 66<br>
+adjust -r for  random interval in millions ie 5000 is 5 billion<br>
 if using cpu's also set the number -t (number)
 
 
