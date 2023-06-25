@@ -4,10 +4,7 @@ import os
 import signal
 import pickle
 
-bitcoin_address = 'bc1qus09g0n5jwg79gje76zxqmzt3gpw80dcqspsmm'
-
-
-# Rest of the code...
+Donations = 'bc1qus09g0n5jwg79gje76zxqmzt3gpw80dcqspsmm'
 
 
 # Function to save the checkpoint
