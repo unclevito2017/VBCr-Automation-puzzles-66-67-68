@@ -44,7 +44,7 @@ save_interval = 60  # Save interval in seconds (1 minute)
 while True:
     try:
         increment = '20000000000000'  # Increment value
-
+#       increment = '10000000000000'  # Increment value default
         while int(end_keyspace, 16) <= int('4000fffffffffffff', 16):  # Continue until the ending keyspace value is reached
             run_vbcr(start_keyspace, end_keyspace)
             start_keyspace = hex(int(end_keyspace, 16) + 1)[2:]  # Increment the start keyspace value
