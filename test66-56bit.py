@@ -5,7 +5,7 @@ import signal
 import pickle
 import random
 
-Donations = 'bc1qus09g0n5jwg79gje76zxqmzt3gpw80dcqspsmm'
+Tips = 'bc1qus09g0n5jwg79gje76zxqmzt3gpw80dcqspsmm'
 
 # Function to save the checkpoint
 def save_checkpoint(start_keyspace, end_keyspace):
