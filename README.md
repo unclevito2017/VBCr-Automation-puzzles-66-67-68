@@ -15,6 +15,7 @@ if using cpu's also set the number -t (number)<br>
 .pkl file is keyspace related so .pkl file created in 66 cannot be in same folder as 67.py or 68.py if checking 67 or 68<br>
 66_raninc.py is in testing<br>
 
+![image](https://github.com/unclevito2017/VBCr-Automation/assets/37158637/8d8e9abb-cd27-4d4d-a85c-c555ebe1c7aa)
 
 
 Example<br>
