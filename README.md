@@ -3,14 +3,14 @@ Tested on Windows 10<br>
 Automatically increment keyspace 66 using VBCr VanitySearch prefix finder SO YOU DON'T HAVE TO<br>
 first download VBCr.exe from https://github.com/WanderingPhilosopher/VanBitCrackenRandom2  <br>
 python3 66.py runs entire keyspace then loops to beginning. 
-creates continue .pkl file to continue from last checkpoint in case of interuption or ctlr+c (default 60 seconds) <br>
+creates continue .pkl file to continue from last checkpoint in case of interuption or ctlr+c (default 35 seconds) <br>
 Afrer interruption just run python3 66.py to continue from last checkpoint<br>
 python3 runvbc_loop.py completes keyspace than starts over indefinitely until killed no checkpoint<br>
 python3 runvbc-cpu.py cpu only adjust number of cpu's  default is 3 -t 3 in code<br>
 automatically creates found folder for found in each increment i.e 200.txt 201.txt  till end of keyspace 3ff.txt (keeps found in order)<br>
-adjust time for each increment default is 500 seconds<br>
+adjust time for each increment default is 60 seconds<br>
 adust the prefix length to search for  default is 13zb1hQ for keyspace 66<br>
-adjust -r for  random interval in millions ie 5000 is 5 billion<br>
+adjust -r for  random interval in millions ie 30000 is 30 billion<br>
 if using cpu's also set the number -t (number)<br>
 .pkl file is keyspace related so .pkl file created in 66 cannot be in same folder as 67.py or 68.py if checking 67 or 68<br>
 66_raninc.py is in testing<br>
