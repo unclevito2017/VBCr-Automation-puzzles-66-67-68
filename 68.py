@@ -49,7 +49,7 @@ while True:
     try:
         increment = '100000000000000'  # Increment value
        
-        while int(end_keyspace, 16) <= int('100fffffffffffffff', 16):  # Continue until the ending keyspace value is reached
+        while int(end_keyspace, 16) <= int('fffffffffffffffff', 16):  # Continue until the ending keyspace value is reached
             run_vbcr(start_keyspace, end_keyspace)
             start_keyspace = hex(int(end_keyspace, 16) + 1)[2:]  # Increment the start keyspace value
             end_keyspace = hex(int(start_keyspace, 16) + int(increment, 16) - 1)[2:]  # Increment the end keyspace value correctly
