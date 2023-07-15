@@ -23,7 +23,7 @@ def load_checkpoint():
             checkpoint_data = pickle.load(f)
         return checkpoint_data['start_keyspace'], checkpoint_data['end_keyspace']
     else:
-        return '40000000000000000', '70100000000000000'
+        return '40000000000000000', '40100000000000000'
 
 def delete_checkpoint():
     if os.path.exists('checkpoint.pkl'):
