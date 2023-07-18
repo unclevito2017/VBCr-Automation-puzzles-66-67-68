@@ -53,7 +53,7 @@ save_interval = 60  # Save interval in seconds (1 minute)
 while True:
     try:
         while int(end_keyspace, 16) <= int('4000fffffffffffff', 16):
-            increment = ''.join(random.choices('0123456789abcdef', k=15))  # Generate a random 15-character hexadecimal value
+            increment = ''.join(random.choices('0123456789abcdef', k=14))  # Generate a random 15-character hexadecimal value
             print("Random Increment:", increment)  # Display the randomly chosen increment
             start_keyspace = start_keyspace[:-len(increment)] + increment  # Append the increment to the right side of the start keyspace
 
