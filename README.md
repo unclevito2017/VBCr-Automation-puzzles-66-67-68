@@ -4,7 +4,7 @@ Automatically increment keyspace 66 using VBCr VanitySearch prefix finder SO YOU
 first download VBCr.exe from https://github.com/WanderingPhilosopher/VanBitCrackenRandom2  <br>
 python3 66.py runs entire keyspace then loops to beginning. 
 creates continue .pkl file to continue from last checkpoint in case of interuption or ctlr+c (default 35 seconds) <br>
-Afrer interruption just run python3 66.py to continue from last checkpoint<br>
+After interruption just run python3 66.py to continue from last checkpoint<br>
 python3 runvbc_loop.py completes keyspace than starts over indefinitely until killed no checkpoint<br>
 python3 runvbc-cpu.py cpu only adjust number of cpu's  default is 3 -t 3 in code<br>
 automatically creates found folder for found in each increment i.e 200.txt 201.txt  till end of keyspace 3ff.txt (keeps found in order)<br>
