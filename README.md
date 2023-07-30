@@ -1,5 +1,5 @@
 # VBCr-Automation
-Tested on Windows 10<br>
+Tested on Windows 10 - Windows ONLY<br>
 Automatically increment keyspace 66 using VBCr VanitySearch prefix finder SO YOU DON'T HAVE TO<br>
 first download VBCr.exe from https://github.com/WanderingPhilosopher/VanBitCrackenRandom2  <br>
 python3 66.py runs entire keyspace then loops to beginning. 
